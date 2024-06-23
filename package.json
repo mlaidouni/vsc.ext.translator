@@ -1,0 +1,67 @@
+{
+  "name": "zemizer-translator",
+  "displayName": "ZeMizer Translator",
+  "publisher": "Kmzx",
+  "description": "A simple translator for VS Code.",
+  "author": {
+    "name": "ZeKmzx"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "zemizer",
+    "translate",
+    "translator",
+    "trad",
+    "translation"
+  ],
+  "icon": "images/icon.png",
+  "pricing": "Free",
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "zemizer-translator.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "zemizer-translator.translate",
+        "title": "ZeTranslate"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.90.0",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "language-tags": "^1.0.9"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlaidouni/vsc.ext.translator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlaidouni/vsc.ext.translator.git"
+  },
+  "homepage": "https://github.com/mlaidouni/vsc.ext.translator/blob/master/README.md"
+}
