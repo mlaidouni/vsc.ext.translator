@@ -21,4 +21,4 @@ Coming soon...
 
 ## Credits
 
-- icon: Created with [Canva](https://www.canva.com/).
+- icon: [Discotools.xyz (discordicon.com)](https://www.discordicon.com/icons-editor)
