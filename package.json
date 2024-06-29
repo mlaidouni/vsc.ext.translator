@@ -20,7 +20,7 @@
     "trad",
     "translation"
   ],
-  "icon": "images/icon.png",
+  "icon": "images/icon2.png",
   "pricing": "Free",
   "activationEvents": [],
   "main": "./extension.js",
@@ -33,6 +33,26 @@
       {
         "command": "zemizer-translator.translate",
         "title": "ZeTranslate"
+      },
+      {
+        "command": "zemizer-translator.tr1",
+        "title": "ZeTr1",
+        "properties": {
+          "zemizer-translator.tr1": {
+            "description": "Active ou désactive une fonctionnalité de ma super extension."
+          }
+        }
+      },
+      {
+        "command": "zemizer-translator.tr2",
+        "title": "ZeTr2",
+        "properties": {
+          "zemizer-translator.tr2": {
+            "type": "boolean",
+            "default": true,
+            "description": "Active ou désactive une fonctionnalité de ma super extension."
+          }
+        }
       }
     ]
   },
