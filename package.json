@@ -20,7 +20,7 @@
     "trad",
     "translation"
   ],
-  "icon": "images/icon2.png",
+  "icon": "images/icon.png",
   "pricing": "Free",
   "activationEvents": [],
   "main": "./extension.js",
